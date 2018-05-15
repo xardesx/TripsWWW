@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+body {
+    background-color: black;
+}
+
+.wrapper {
+    width: 100%;
+    height: 2000px;
+}
+
+.parallax-1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.parallax-2 {
+    width: 100%;
+    height: 300vh;
+}
+
+.parallax-window {
+    height: 100vh;
+    background: transparent;
+}
+
+.parallax-window-2 {
+    height: 300vh;
+    background: transparent;
+}
+
+.myparralax {
+    height: 10px;
+    background: transparent;
+}
+
+.solid {
+    font-family: 'Monoton', cursive;
+    padding: 5vh 0;
+    background: steelblue;
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin: 0;
+    line-height: 1;
+
+}
+
+small {
+    font-size: .5em;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+footer.info {
+    color: #FFFAF0;
+    background: #777;
+    padding: 0 auto;
+    text-align: center;
+}
+
+#stopka{
+    height: 100px;
+    width: 100%;
+    color: red;
+}
+
+header nav {
+    text-align: right;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+header nav {
+    text-align: right;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+}
+header nav a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2em 1em .5em;
+    -webkit-transition: all .3s ease-in;
+}
+.small {
+    padding: .5em 1em;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    background: rgba(255,255,255,0.3);
+}
+
+
+.info {
+    background: #FFFAF0;
+    color: #777;
+    padding: 3em 20%;
+}
+
+.button {
+    text-align: center;
+}
+.button a {
+    display: inline-block;
+    border: 2px solid #777;
+    padding: .75em 1.5em;
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: .15em;
+    word-spacing: .25em;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.button a:hover {
+    color: #FFFAF0;
+    background: #777;
+}
+footer.info {
+    color: #FFFAF0;
+    background: #777;
+    padding: 0 auto;
+    text-align: center;
+}
+
+#toTop img {
+    width: 50px;
+}
+#toTop img:hover {
+    cursor: pointer;
+}
+nav img {
+    z-index: 1000;
+    height: 2.5em;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    transition: all 0.5s linear;
+}
+
+.move {
+    top: -60px;
+}
+
+nav span {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+.movetext {
+    top: -30px;
+}
